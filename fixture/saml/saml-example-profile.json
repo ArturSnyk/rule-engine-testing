@@ -1,0 +1,40 @@
+{
+  "_json": {
+    "authenticationmethod": "urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport",
+    "clientID": "SOME_CLIENT_ID",
+    "created_at": "2017-09-11T09:23:36.859Z",
+    "identities": [
+      {
+        "connection": "saml-boop",
+        "isSocial": false,
+        "provider": "samlp",
+        "user_id": "saml-boop|woop.check@boop.com"
+      }
+    ],
+    "issuer": "https://accounts.google.com/o/saml2?idpid=C0995jik",
+    "name": "",
+    "nameIdAttributes": {
+      "Format": "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress",
+      "value": "woop.check@boop.com"
+    },
+    "nickname": "",
+    "picture": "https://cdn.auth0.com/avatars/default.png",
+    "sub": "samlp|saml-boop|woop.check@boop.com",
+    "updated_at": "2019-04-11T09:55:36.811Z",
+    "user_id": "samlp|saml-boop|woop.check@boop.com"
+  },
+  "displayName": "",
+  "id": "samlp|saml-boop|woop.check@boop.com",
+  "identities": [
+    {
+      "connection": "saml-boop",
+      "isSocial": false,
+      "provider": "samlp",
+      "user_id": "saml-boop|woop.check@boop.com"
+    }
+  ],
+  "name": {},
+  "nickname": "",
+  "picture": "https://cdn.auth0.com/avatars/default.png",
+  "provider": "samlp"
+}
